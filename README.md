@@ -1,5 +1,7 @@
 # iPhone Duo
 
+> Apple: Build your app to resize
+
 <img width="1480" height="832" alt="platforms-designing-for-iphone-intro~dark@2x" src="https://github.com/user-attachments/assets/550ddb0e-a6bd-4f3f-88b2-ff06188126b5" />
 
 ## Terminology 
