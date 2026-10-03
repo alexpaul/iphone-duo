@@ -71,7 +71,7 @@ defaults write ~/Library/Containers/com.apple.dt.Devices/Data/Library/Preference
 
 ### Using `if #available` 
 ```swift
-if #available(anyAppleOS 27.1, *) {
+if #available(iOS 27.1, *) {
     ArrangementView {
         Color(.yellow)
     } secondary: {
@@ -115,6 +115,81 @@ ArrangementView {
 ```
 
 <img width="925" height="1013" alt="Screenshot 2026-10-03 at 4 41 09 PM" src="https://github.com/user-attachments/assets/be4aa65e-080d-4fdb-ac4a-5d5ac6cea777" />
+
+## Hinge
+
+Try? it out 
+
+```swift
+import SwiftUI
+
+@available(iOS 27.1, *)
+struct HingeSimpleDemo: View {
+
+    @State private var hinge: DeviceHinge?
+
+    var body: some View {
+        Group {
+            if let hinge {
+                VStack {
+                    Text(statusTitle(for: hinge.status))
+                        .font(.largeTitle)
+                        .foregroundStyle(statusColor(for: hinge.status))
+                    Text("\(Int(hinge.angle.degrees))°")
+                        .monospaced()
+                        .font(.title2)
+                        .foregroundStyle(statusColor(for: hinge.status))
+                }
+            } else {
+                ContentUnavailableView(
+                    "Hinge Unavailable",
+                    systemImage: "rectangle.split.2x1",
+                    description: Text("Fold or unfold the device to report the hinge angle.")
+                )
+            }
+        }
+        .onHingeChange { _, newContext in
+            hinge = newContext.hinge
+        }
+    }
+
+    private func statusColor(for status: DeviceHinge.Status) -> Color {
+        switch status {
+        case .closed: .gray
+        case .partiallyOpen: .orange
+        case .fullyOpen: .green
+        default: .secondary
+        }
+    }
+
+    private func statusTitle(for status: DeviceHinge.Status) -> String {
+        switch status {
+        case .closed: "iPhone Duo closed"
+        case .partiallyOpen: "iPhone Duo partially open"
+        case .fullyOpen: "iPhone Duo fully open"
+        default: "Unknown"
+        }
+    }
+}
+
+#Preview {
+    if #available(iOS 27.1, *) {
+        HingeSimpleDemo()
+    } else {
+        // Fallback on earlier versions
+        Text("DeviceHinge requires a iPhone Duo and iOS 27.1+")
+    }
+}
+```
+
+### Outer display 
+<img width="925" height="1013" alt="Screenshot 2026-10-03 at 7 26 23 PM" src="https://github.com/user-attachments/assets/2d540cd7-cd0a-44a4-8368-94f239383244" />
+
+### Inner display 
+<img width="925" height="1013" alt="Screenshot 2026-10-03 at 7 26 32 PM" src="https://github.com/user-attachments/assets/ed758229-e163-4513-88ea-670d02d06620" />
+
+### Book pose
+<img width="925" height="1013" alt="Screenshot 2026-10-03 at 7 26 42 PM" src="https://github.com/user-attachments/assets/951c57b7-db67-4aed-a251-9f965e7117dd" />
 
 
 ## Resources 
