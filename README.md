@@ -95,6 +95,19 @@ if #available(anyAppleOS 27.1, *) {
 
 ### Book pose (`.overlay` style)
 We can use `.overlayArrangementEdge(.leading)` to decide that the player control moves to the `.leading` edge when in Book pose 
+
+```swift
+ArrangementView {
+    // Primary: controls that sit on top of the content
+    PlayerControlsView()
+        .overlayArrangementEdge(.leading)   // or .trailing
+} secondary: {
+    // Secondary: full-bleed content underneath
+    VideoSurfaceView()
+}
+.arrangementViewStyle(.overlay)
+```
+
 <img width="925" height="1013" alt="Screenshot 2026-10-03 at 4 41 09 PM" src="https://github.com/user-attachments/assets/be4aa65e-080d-4fdb-ac4a-5d5ac6cea777" />
 
 
