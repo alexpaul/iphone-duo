@@ -87,6 +87,17 @@ if #available(anyAppleOS 27.1, *) {
 ### Book pose (Notice how the content moves away from the folded region)
 <img width="925" height="1013" alt="Screenshot 2026-10-02 at 10 09 37 PM" src="https://github.com/user-attachments/assets/0802191d-21f3-483d-b9a1-02b50305bca9" />
 
+### Outer display (`.overlay` style)
+<img width="925" height="1013" alt="Screenshot 2026-10-03 at 4 40 53 PM" src="https://github.com/user-attachments/assets/1e6859da-116b-4201-a789-5425bc881131" />
+
+### Inner display (`.overlay` style)
+<img width="925" height="1013" alt="Screenshot 2026-10-03 at 4 41 01 PM" src="https://github.com/user-attachments/assets/1a8646a6-e2c4-4cbd-9155-039016d2781e" />
+
+### Book pose (`.overlay` style)
+We can use `.overlayArrangementEdge(.leading)` to decide that the player control moves to the `.leading` edge when in Book pose 
+<img width="925" height="1013" alt="Screenshot 2026-10-03 at 4 41 09 PM" src="https://github.com/user-attachments/assets/be4aa65e-080d-4fdb-ac4a-5d5ac6cea777" />
+
+
 ## Resources 
 
 * [Apple: Designing for iPhone Duo (Design Guidance)](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo)
