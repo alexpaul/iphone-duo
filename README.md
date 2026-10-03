@@ -63,6 +63,30 @@ defaults write ~/Library/Containers/com.apple.dt.Devices/Data/Library/Preference
 ### ⚠️ Available in iOS 27.1+
 <img width="933" height="171" alt="Screenshot 2026-10-02 at 9 57 43 PM" src="https://github.com/user-attachments/assets/80bd6dec-b0d3-42e8-85b4-10e0d0a214a9" />
 
+### Using `if #available` 
+```swift
+if #available(anyAppleOS 27.1, *) {
+    ArrangementView {
+        Color(.yellow)
+    } secondary: {
+        Color(.green)
+    }
+    .arrangementViewStyle(.split)
+} else {
+    // Fallback on earlier versions
+    Text("Sorry no ArrangementView for you")
+}
+```
+
+### Outer display 
+<img width="925" height="1013" alt="Screenshot 2026-10-02 at 10 09 12 PM" src="https://github.com/user-attachments/assets/13eee1d4-36b9-4582-8218-9ae6e284310d" />
+
+### Inner display 
+<img width="925" height="1013" alt="Screenshot 2026-10-02 at 10 09 24 PM" src="https://github.com/user-attachments/assets/dd64e56b-320b-4a2d-8e55-650ff27db91c" />
+
+### Book pose (Notice how the content moves away from the folded region)
+<img width="925" height="1013" alt="Screenshot 2026-10-02 at 10 09 37 PM" src="https://github.com/user-attachments/assets/0802191d-21f3-483d-b9a1-02b50305bca9" />
+
 ## Resources 
 
 * [Apple: Designing for iPhone Duo (Design Guidance)](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo)
