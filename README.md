@@ -34,7 +34,7 @@ defaults write ~/Library/Containers/com.apple.dt.Devices/Data/Library/Preference
 
 ## Safe Area Insets on iPhone Duo
 
-### Outer diplay 
+### Outer display 
 <img width="925" height="1013" alt="Screenshot 2026-10-02 at 8 30 52 PM" src="https://github.com/user-attachments/assets/cce5410b-21bd-4484-ae3d-d358bfddb0e3" />
 
 ### Inner display 
