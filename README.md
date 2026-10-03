@@ -18,6 +18,8 @@
   * Outer display
   * Inner display
 * Hinge
+  * [DeviceHinge](https://developer.apple.com/documentation/swiftui/devicehinge)
+  * [DeviceHinge.Status](https://developer.apple.com/documentation/swiftui/devicehinge/status-swift.struct)
 * [Reserved regions](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Reserved-regions)
   * Outer camera region
   * Inner camera region
