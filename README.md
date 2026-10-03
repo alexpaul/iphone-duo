@@ -18,6 +18,12 @@
   * Outer display
   * Inner display
 * Hinge
+* [Reserved regions](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Reserved-regions)
+  * Outer camera region
+  * Inner camera region
+  * Folding region
+  * See [ReservedRegion](https://developer.apple.com/documentation/swiftui/reservedregion) API
+* Split Views
 
 ## Poses
 
