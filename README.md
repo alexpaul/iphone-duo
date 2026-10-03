@@ -66,6 +66,8 @@ defaults write ~/Library/Containers/com.apple.dt.Devices/Data/Library/Preference
 
 ## Arrangement views 
 
+> [Apple](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Arrangement-views): An arrangement view is a layout container that holds two views inside it — a primary view and a secondary view — and dynamically organizes them based on display size, orientation, and reserved regions.
+
 ### ⚠️ Available in iOS 27.1+
 <img width="933" height="171" alt="Screenshot 2026-10-02 at 9 57 43 PM" src="https://github.com/user-attachments/assets/80bd6dec-b0d3-42e8-85b4-10e0d0a214a9" />
 
