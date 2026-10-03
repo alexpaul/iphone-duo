@@ -54,7 +54,7 @@ defaults write ~/Library/Containers/com.apple.dt.Devices/Data/Library/Preference
 ### Inner display 
 <img width="925" height="1013" alt="Screenshot 2026-10-02 at 9 41 45 PM" src="https://github.com/user-attachments/assets/f33e589c-fdc9-4121-b35d-a4e7848afe30" />
 
-### Partially closed (Notice how the content moves away from the folded region)
+### Book pose (Notice how the content moves away from the folded region)
 <img width="925" height="1013" alt="Screenshot 2026-10-02 at 9 43 31 PM" src="https://github.com/user-attachments/assets/37be074a-5ed9-4777-9202-af808c826e56" />
 
 
