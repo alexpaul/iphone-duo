@@ -71,7 +71,7 @@ if #available(anyAppleOS 27.1, *) {
     } secondary: {
         Color(.green)
     }
-    .arrangementViewStyle(.split)
+    .arrangementViewStyle(.split) // .automatic, .overlay, .split
 } else {
     // Fallback on earlier versions
     Text("Sorry no ArrangementView for you")
