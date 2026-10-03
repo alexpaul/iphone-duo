@@ -57,6 +57,8 @@ defaults write ~/Library/Containers/com.apple.dt.Devices/Data/Library/Preference
 
 ## Split view on iPhone Duo 
 
+> Apple: On iPhone Duo, a split view expands on the inner display and collapses to a single pane on the outer display, the same way it adapts between regular and compact environments on other iPhone devices. When built with standard components, split views adapt to reserved regions automatically, adjusting width and margins to adapt to the fold.
+
 ### Outer display 
 <img width="925" height="1013" alt="Screenshot 2026-10-02 at 9 41 21 PM" src="https://github.com/user-attachments/assets/719a998e-f486-4baa-bbda-1784311d6492" />
 
