@@ -24,6 +24,7 @@
   * Folding region
   * See [ReservedRegion](https://developer.apple.com/documentation/swiftui/reservedregion) API
 * Split Views
+* Arrangement views
 
 ## Poses
 
@@ -57,6 +58,10 @@ defaults write ~/Library/Containers/com.apple.dt.Devices/Data/Library/Preference
 ### Book pose (Notice how the content moves away from the folded region)
 <img width="925" height="1013" alt="Screenshot 2026-10-02 at 9 43 31 PM" src="https://github.com/user-attachments/assets/37be074a-5ed9-4777-9202-af808c826e56" />
 
+## Arrangement views 
+
+### ⚠️ Available in iOS 27.1+
+<img width="933" height="171" alt="Screenshot 2026-10-02 at 9 57 43 PM" src="https://github.com/user-attachments/assets/80bd6dec-b0d3-42e8-85b4-10e0d0a214a9" />
 
 ## Resources 
 
