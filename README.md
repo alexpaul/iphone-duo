@@ -24,7 +24,10 @@
   * Folding region
   * See [ReservedRegion](https://developer.apple.com/documentation/swiftui/reservedregion) API
 * Split Views
-* Arrangement views
+* [Arrangement views](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Arrangement-views)
+  * Split arrangement
+  * Overlay arrangement
+  * See [ArrangementView](https://developer.apple.com/documentation/swiftui/arrangementview) API
 
 ## Poses
 
