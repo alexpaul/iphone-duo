@@ -34,6 +34,8 @@
 
 ## Poses
 
+> Apple: People hold iPhone Duo and set it down in a number of ways: partially folded like a book, placed down on a surface, or standing on its edges.
+
 * Closed
 * Open
 * Laptop
@@ -119,6 +121,8 @@ ArrangementView {
 <img width="925" height="1013" alt="Screenshot 2026-10-03 at 4 41 09 PM" src="https://github.com/user-attachments/assets/be4aa65e-080d-4fdb-ac4a-5d5ac6cea777" />
 
 ## Hinge
+
+> Apple: A hinge provides its angle along with a status determined by the system based on the current angle and device orientation. You use this type with the `View/onHingeChange(_:)` modifier.
 
 Try? it out 
 
