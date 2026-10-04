@@ -48,10 +48,11 @@ struct ContentView: View {
                 .ignoresSafeArea()
             }
         } else {
-            ContentUnavailableView(
-                "iPhone Duo unavailable",
-                image: "rectangle.split.2x1.fill"
-            )
+            ContentUnavailableView {
+                Label("OS Not Available", systemImage: "exclamationmark.triangle.fill")
+            } description: {
+                Text("You need to be running iOS 27.1+")
+            }
         }
     }
 }
