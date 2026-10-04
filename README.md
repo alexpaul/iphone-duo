@@ -49,6 +49,8 @@ defaults write ~/Library/Containers/com.apple.dt.Devices/Data/Library/Preference
 
 ## Safe Area Insets on iPhone Duo
 
+> Apple: By default, the SwiftUI layout system sizes and positions views to avoid certain safe areas.
+
 ### Outer display 
 <img width="925" height="1013" alt="Screenshot 2026-10-02 at 8 30 52 PM" src="https://github.com/user-attachments/assets/cce5410b-21bd-4484-ae3d-d358bfddb0e3" />
 
@@ -132,8 +134,7 @@ Try? it out
 import SwiftUI
 
 @available(iOS 27.1, *)
-struct HingeSimpleDemo: View {
-
+struct HingeView: View {
     @State private var hinge: DeviceHinge?
 
     var body: some View {
@@ -180,13 +181,18 @@ struct HingeSimpleDemo: View {
     }
 }
 
-#Preview {
-    if #available(iOS 27.1, *) {
-        HingeSimpleDemo()
-    } else {
-        // Fallback on earlier versions
-        Text("DeviceHinge requires a iPhone Duo and iOS 27.1+")
+struct HingeSimpleDemo: View {
+    var body: some View {
+        if #available(iOS 27.1, *) {
+            HingeView()
+        } else {
+            Text("DeviceHinge requires a newer OS")
+        }
     }
+}
+
+#Preview {
+    HingeSimpleDemo()
 }
 ```
 
