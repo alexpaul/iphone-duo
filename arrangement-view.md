@@ -51,7 +51,7 @@ struct ContentView: View {
             ContentUnavailableView {
                 Label("OS Not Available", systemImage: "exclamationmark.triangle.fill")
             } description: {
-                Text("You need to be running iOS 27.1+")
+                Text("You need to be running iOS 27.1 or higher")
             }
         }
     }
