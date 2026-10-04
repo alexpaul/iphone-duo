@@ -57,7 +57,14 @@ struct ContentView: View {
         Color(.orange)
             // Uncomment if you want your `View` taking the entire area of the device including the safe area
             // .ignoresSafeArea()
+
+            // Uncomment if you want to ignore a specific edge
+            // .ignoresSafeArea(edges: [.bottom])
     }
+}
+
+#Preview {
+    ContentView()
 }
 ```
 
