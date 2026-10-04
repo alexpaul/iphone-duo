@@ -51,6 +51,16 @@ defaults write ~/Library/Containers/com.apple.dt.Devices/Data/Library/Preference
 
 > Apple: By default, the SwiftUI layout system sizes and positions views to avoid certain safe areas.
 
+```swift
+struct ContentView: View {
+    var body: some View {
+        Color(.orange)
+            // Uncomment if you want your `View` taking the entire area of the device including the safe area
+            // .ignoresSafeArea()
+    }
+}
+```
+
 ### Outer display 
 <img width="925" height="1013" alt="Screenshot 2026-10-02 at 8 30 52 PM" src="https://github.com/user-attachments/assets/cce5410b-21bd-4484-ae3d-d358bfddb0e3" />
 
