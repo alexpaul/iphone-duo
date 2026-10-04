@@ -109,6 +109,9 @@ if #available(iOS 27.1, *) {
 }
 ```
 
+> [Apple](https://developer.apple.com/documentation/technologyoverviews/preparing-your-app-for-iphone-duo): Avoid placing an arrangement view inside a navigation split view, list, scroll view, or other container that might cause part of your view to become inaccessible.
+
+
 ### Outer display 
 <img width="925" height="1013" alt="Screenshot 2026-10-02 at 10 09 12 PM" src="https://github.com/user-attachments/assets/13eee1d4-36b9-4582-8218-9ae6e284310d" />
 
