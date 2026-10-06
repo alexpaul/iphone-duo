@@ -10,3 +10,7 @@ Your layout should respond to the available space rather than relying on a speci
 
 https://github.com/user-attachments/assets/8199be83-9148-4b20-95c9-4b8b54d596ad
 
+## Resource 
+
+* [Apple: Designing for iPhone Duo](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Vertical-controls)
+
