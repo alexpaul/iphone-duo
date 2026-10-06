@@ -228,6 +228,9 @@ struct HingeSimpleDemo: View {
 
 ## Resources 
 
+> [Apple](https://developer.apple.com/news/?id=kkphp5qo): Starting April 2027, any apps or games submitted will need to include screenshots for iPhone Duo.
+
 * [Apple: iPhone Duo (Resources includes videos)](https://developer.apple.com/iphone-duo/)
 * [Apple: Designing for iPhone Duo (Design Guidance)](https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo)
 * [Apple: Preparing your app for iPhone Duo (Developer Guidance)](https://developer.apple.com/documentation/technologyoverviews/preparing-your-app-for-iphone-duo)
+* [Apple: Three steps to make your app shine on iPhone Duo](https://developer.apple.com/iphone-duo/prepare/)
